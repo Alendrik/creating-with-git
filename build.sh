@@ -10,6 +10,7 @@ npx honkit build
 
 # Copy the `_book` folder contents to docs
 cp -Rf _book docs
+ls docs
 
 ## Create a new commit for teh rebuild (every time), with a new date
 git add docs/
