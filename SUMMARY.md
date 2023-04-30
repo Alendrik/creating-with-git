@@ -2,7 +2,7 @@
 
 
 * [Introduction](README.md)
-* [1: Ends and Beginnings](1_Ends-and-Beginnings)
+* [1: Ends and Beginnings](1_Ends-and-Beginnings/README.md)
   * [1-1: The Project](1_Ends-and-Beginnings/1-1_the-project.md)
   * [1-2: Git Repositories](1_Ends-and-Beginnings/1-2_git-repositories.md)
   * [1-3: The Git Core Loop](1_Ends-and-Beginnings/1-3_git-core-loop.md)
