@@ -1,3 +1,3 @@
-# 1: Gitting Acquainted
+# 1: Ends and Beginnings
 
-This section is all about the basics of Git.
+I will talk about how I've finished the cwg TTI course and plans for the future.
