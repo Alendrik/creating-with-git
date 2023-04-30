@@ -2,12 +2,12 @@
 
 
 * [Introduction](README.md)
-* [1: Ends and Beginnings](1_Ends-and-Beginnings/README.md)
-  * [1-1: The Project](1_Ends-and-Beginnings/1-1_the-project.md)
-  * [1-2: Git Repositories](1_Ends-and-Beginnings/1-2_git-repositories.md)
-  * [1-3: The Git Core Loop](1_Ends-and-Beginnings/1-3_git-core-loop.md)
-  * [1-4: Commit Best Practices](1_Ends-and-Beginnings/1-4_commit-best-practices.md)
-  * [1-5: Fixing Mistakes](1_Ends-and-Beginnings/1-5_fixing-mistakes.md)
+* [1: Ends and Beginnings](1_ends-and-beginnings/README.md)
+  * [1-1: The Project](1_ends-and-beginnings/1-1_the-project.md)
+  * [1-2: Git Repositories](1_ends-and-beginnings/1-2_git-repositories.md)
+  * [1-3: The Git Core Loop](1_ends-and-beginnings/1-3_git-core-loop.md)
+  * [1-4: Commit Best Practices](1_ends-and-beginnings/1-4_commit-best-practices.md)
+  * [1-5: Fixing Mistakes](1_ends-and-beginnings/1-5_fixing-mistakes.md)
 * [2: Possibilities](2_possibilities/README.md)
   * [2-1: Branches](2_possibilities/2-1_branches.md)
   * [2-2: Hanging onto Changes](2_possibilities/2-2_hanging-onto-changes.md)
