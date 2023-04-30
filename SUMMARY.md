@@ -3,7 +3,7 @@
 
 * [Introduction](README.md)
 * [1: Ends and Beginnings](1_ends-and-beginnings/README.md)
-  * [1-1: The Project](1_ends-and-beginnings/1-1_the-project.md)
+  * [1-1: A Fresh Start](1_ends-and-beginnings/1-1_fresh-start.md)
   * [1-2: Git Repositories](1_ends-and-beginnings/1-2_git-repositories.md)
   * [1-3: The Git Core Loop](1_ends-and-beginnings/1-3_git-core-loop.md)
   * [1-4: Commit Best Practices](1_ends-and-beginnings/1-4_commit-best-practices.md)
