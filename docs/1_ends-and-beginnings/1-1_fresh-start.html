@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>4-2: GitHub Pages · Creating With Git</title>
+        <title>1-1: A Fresh Start · Creating With Git</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 4.0.7">
@@ -60,10 +60,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../5_conclusion/" />
+    <link rel="next" href="1-2_git-repositories.html" />
     
     
-    <link rel="prev" href="4-1_publishing-concepts.html" />
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -105,9 +105,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="../1_ends-and-beginnings/">
+        <li class="chapter " data-level="1.2" data-path="./">
             
-                <a href="../1_ends-and-beginnings/">
+                <a href="./">
             
                     
                     1: Ends and Beginnings
@@ -119,9 +119,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="../1_ends-and-beginnings/1-1_fresh-start.html">
+        <li class="chapter active" data-level="1.2.1" data-path="1-1_fresh-start.html">
             
-                <a href="../1_ends-and-beginnings/1-1_fresh-start.html">
+                <a href="1-1_fresh-start.html">
             
                     
                     1-1: A Fresh Start
@@ -132,9 +132,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="../1_ends-and-beginnings/1-2_git-repositories.html">
+        <li class="chapter " data-level="1.2.2" data-path="1-2_git-repositories.html">
             
-                <a href="../1_ends-and-beginnings/1-2_git-repositories.html">
+                <a href="1-2_git-repositories.html">
             
                     
                     1-2: Git Repositories
@@ -145,9 +145,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="../1_ends-and-beginnings/1-3_git-core-loop.html">
+        <li class="chapter " data-level="1.2.3" data-path="1-3_git-core-loop.html">
             
-                <a href="../1_ends-and-beginnings/1-3_git-core-loop.html">
+                <a href="1-3_git-core-loop.html">
             
                     
                     1-3: The Git Core Loop
@@ -158,9 +158,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="../1_ends-and-beginnings/1-4_commit-best-practices.html">
+        <li class="chapter " data-level="1.2.4" data-path="1-4_commit-best-practices.html">
             
-                <a href="../1_ends-and-beginnings/1-4_commit-best-practices.html">
+                <a href="1-4_commit-best-practices.html">
             
                     
                     1-4: Commit Best Practices
@@ -171,9 +171,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.5" data-path="../1_ends-and-beginnings/1-5_fixing-mistakes.html">
+        <li class="chapter " data-level="1.2.5" data-path="1-5_fixing-mistakes.html">
             
-                <a href="../1_ends-and-beginnings/1-5_fixing-mistakes.html">
+                <a href="1-5_fixing-mistakes.html">
             
                     
                     1-5: Fixing Mistakes
@@ -318,9 +318,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="./">
+        <li class="chapter " data-level="1.5" data-path="../4_publishing/">
             
-                <a href="./">
+                <a href="../4_publishing/">
             
                     
                     4: Publishing
@@ -332,9 +332,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="4-1_publishing-concepts.html">
+        <li class="chapter " data-level="1.5.1" data-path="../4_publishing/4-1_publishing-concepts.html">
             
-                <a href="4-1_publishing-concepts.html">
+                <a href="../4_publishing/4-1_publishing-concepts.html">
             
                     
                     4-1: Publishing Concepts
@@ -345,9 +345,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5.2" data-path="4-2_github-pages.html">
+        <li class="chapter " data-level="1.5.2" data-path="../4_publishing/4-2_github-pages.html">
             
-                <a href="4-2_github-pages.html">
+                <a href="../4_publishing/4-2_github-pages.html">
             
                     
                     4-2: GitHub Pages
@@ -425,7 +425,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >4-2: GitHub Pages</a>
+        <a href=".." >1-1: A Fresh Start</a>
     </h1>
 </div>
 
@@ -440,66 +440,25 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="4-2-github-pages">4-2: GitHub Pages</h1>
-<p>The Honkit tool that we&apos;re using can generate websites for any platform, but since we&apos;re on GitHub anyhow, we can take advantage of <a href="https://pages.github.com" target="_blank">GitHub Pages</a>. This feature lets you host static websites directly from a GitHub Repo. There are technically two ways to use this feature. You can see this in your repo&apos;s Pages settings (<code>/settings/pages</code>)</p>
-<p><img src="../img/git-pages-1.png" alt="GitHub Pages"></p>
-<p>There are 2 ways to use GitHub Pages: either through GitHub Actions, or by specifying a branch that will contain the contents for the site. That being said, I <em>greatly prefer</em> using <a href="https://docs.github.com/en/actions" target="_blank">GitHub Actions</a> for the automated build process. Once you&apos;re comfortable with Pages, I would check out Actions.</p>
-<p>We&apos;re going to use the branch method, as GitHub Actions are a little outside the scope of this course.</p>
-<h2 id="branch-setup">Branch Setup</h2>
-<p>In your local copy of your <code>creating-with-git</code> fork, make a new branch for our Pages deployment.</p>
-<pre><code class="lang-bash">git switch -c pages
-</code></pre>
-<p>Then, as we&apos;ve done before, push this new branch to GitHub.</p>
-<pre><code class="lang-bash">git push -u origin pages
-</code></pre>
-<p>Now we&apos;re not quite finished. See, this branch is going to include some parts that <code>main</code> does not. This branch needs to have the contents of the built site. So, y&apos;know, let&apos;s build the site.</p>
-<pre><code class="lang-bash">npx honkit build
-</code></pre>
-<p>You&apos;ll notice that there is <code>_book</code> folder in your repo. That&apos;s where your built site is! This folder has actually been there for a while now, since that&apos;s where <code>npx honkit serve</code> was generating our local site. But Git was ignoring it based on an entry in the repo&apos;s <code>.gitignore</code> file.</p>
-<p>Now unfortunately, GitHub Pages is a bit inflexible in this regard. If you want to use a branch and <em>not</em> the root of the repo, the folder name has to be <code>docs</code>. We can make this change in once, but we want to make sure this process is repeatable. </p>
-<p>It&apos;s time to write a <strong>build script</strong>.</p>
+                                <h1 id="1-1-every-end-a-beginning">1-1: Every end a Beginning</h1>
+<p>I&apos;m standing here fresh off the <code>Creating with Git</code> course from TTI. I had a lot of fun. But, most importantly, I have a direction to follow on all that I have yet to learn! Now that sounds all fun and exciting, especially since I have a repo to play around with, but what exactly should I do with it?</p>
+<h2 id="coming-up-with-ideas---sir-what-do-you-mean-by-yes">Coming up with ideas - Sir, what do you mean by yes?</h2>
+<p>As I tried to come up with separate ideas worthy of a project, I realized that I can combine lots ofwhat I want to do into one project. I want to publish some documentations to show companies a little more about me. I&apos;ve also been meaning to figure out a workflow to publish my desired obsidian notes. Lastly, I want to make sure my next project can include git in some fashion. Rather than treating these things </p>
+<h2 id="turning-ideas---project">Turning Ideas -&gt; Project</h2>
+<p>I had a few main ideas I considered for the mini project moving forward:</p>
+<ul>
+<li>Posting the notes I&apos;ve taken of this course so far.</li>
+<li>Finding out a way to use my favorite note taking program to publish notes with git-pages.</li>
+<li>Learn as much git along the way!</li>
+</ul>
+<p>This led to the formalized project idea:</p>
 <blockquote>
-<p>Btw, this is the exact kind of nonsense that GitHub Actions is designed to automate. Still, I think it&apos;s worthwhile to learn the manual process first.</p>
+<p>Create a new Obsidian Notes vault specifically for publishing with github pages and honkit. This vault will wrap around the publishing directory to make editing pleasant.</p>
 </blockquote>
-<h2 id="build-script">Build Script</h2>
-<p>Our build script needs to accomplish the following:</p>
-<ol>
-<li>Remove <code>docs</code> fodler if it exists to prevent it from getting added to <code>_book</code>.</li>
-<li>Rebuild the site.</li>
-<li>Copy the <code>_book</code> folder contents to <code>docs</code></li>
-<li>Create a new commit for the rebuild (every time), maybe with a date?</li>
-<li>Push the commit to GitHub.</li>
-</ol>
-<p>Honestly not too bad, and easily done in bash. Here&apos;s what our new <code>build.sh</code> should look like.</p>
-<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
-
-<span class="hljs-comment"># Remove existing docs folder </span>
-<span class="hljs-keyword">if</span> [ -d docs ]; <span class="hljs-keyword">then</span>
-    rm -rf docs
-<span class="hljs-keyword">fi</span>
-
-<span class="hljs-comment"># Rebuild the site</span>
-npx honkit build
-
-<span class="hljs-comment"># Copy the `_book` folder contents to `docs`</span>
-cp -Rf _book docs
-
-<span class="hljs-comment"># Create a new commit for the rebuild (every time), maybe with a date?</span>
-git add docs/
-git commit -m <span class="hljs-string">&quot;Rebuild: <span class="hljs-subst">$(date)</span>&quot;</span>
-
-<span class="hljs-comment"># Push the commit to GitHub.</span>
-git push
-</code></pre>
-<p>Save this file. Then make it executable by running <code>chmod +x build.sh</code>. Now of course we&apos;ll add it:</p>
-<pre><code class="lang-bash">git add build.sh
-git commit -m <span class="hljs-string">&quot;Add build script&quot;</span>
-</code></pre>
-<p>Let&apos;s do a test run! Make some changes to your Markdown files, then run:</p>
-<pre><code class="lang-bash">./build.sh
-</code></pre>
-<p>If all goes well, your content should be pushed to GitHub, and in a minute or two, your site will be live at <code>https://your-account-name.github.io/your-repo-name</code>.</p>
-<p>Believe it or not, that&apos;s it! You&apos;ve not only published your documentation, but you&apos;ve finished this course! Well done! Now all that&apos;s left is the Exhibition Of Mastery.</p>
+<h3 id="starting-the-project---where-do-i-start">Starting the project - where do I start?</h3>
+<p>So, I always seek to get ahead of myself and immediately start. While this is not immediately a bad idea, I have to ensure that I put in some effort to research. If I don&apos;t, I will end up annoying myself by getting stuck and annoying the poor members of the TTI discord server. (shout out to yall!)</p>
+<h3 id="the-plan">The plan</h3>
+<p>Draft the initial plan and research alongside. Shape Chapter 1 to be Project setup and research. In a sort of inception-like way, I&apos;ve already stated this process by just writing this first page, so I&apos;ll just continue along with the research.</p>
 
                                 
                                 </section>
@@ -527,12 +486,12 @@ git commit -m <span class="hljs-string">&quot;Add build script&quot;</span>
 
             
                 
-                <a href="4-1_publishing-concepts.html" class="navigation navigation-prev " aria-label="Previous page: 4-1: Publishing Concepts">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 1: Ends and Beginnings">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../5_conclusion/" class="navigation navigation-next " aria-label="Next page: 5: Conclusion">
+                <a href="1-2_git-repositories.html" class="navigation navigation-next " aria-label="Next page: 1-2: Git Repositories">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -543,7 +502,7 @@ git commit -m <span class="hljs-string">&quot;Add build script&quot;</span>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"4-2: GitHub Pages","level":"1.5.2","depth":2,"next":{"title":"5: Conclusion","level":"1.6","depth":1,"path":"5_conclusion/README.md","ref":"5_conclusion/README.md","articles":[{"title":"5-1: Exhibition of Mastery","level":"1.6.1","depth":2,"path":"5_conclusion/5-1_exhibition-of-mastery.md","ref":"5_conclusion/5-1_exhibition-of-mastery.md","articles":[]}]},"previous":{"title":"4-1: Publishing Concepts","level":"1.5.1","depth":2,"path":"4_publishing/4-1_publishing-concepts.md","ref":"4_publishing/4-1_publishing-concepts.md","articles":[]},"dir":"ltr"},"config":{"plugins":["highlight"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pubdate":"2023-04-03:00:00:00","author":"Michael Taggart","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Creating With Git","gitbook":"*","publisher":"The Taggart Institute","description":"An introductory course on Git for all types of projects from The Taggart Institute"},"file":{"path":"4_publishing/4-2_github-pages.md","mtime":"2023-04-29T06:11:25.562Z","type":"markdown"},"gitbook":{"version":"4.0.7","time":"2023-04-30T03:47:12.104Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"1-1: A Fresh Start","level":"1.2.1","depth":2,"next":{"title":"1-2: Git Repositories","level":"1.2.2","depth":2,"path":"1_ends-and-beginnings/1-2_git-repositories.md","ref":"1_ends-and-beginnings/1-2_git-repositories.md","articles":[]},"previous":{"title":"1: Ends and Beginnings","level":"1.2","depth":1,"path":"1_ends-and-beginnings/README.md","ref":"1_ends-and-beginnings/README.md","articles":[{"title":"1-1: A Fresh Start","level":"1.2.1","depth":2,"path":"1_ends-and-beginnings/1-1_fresh-start.md","ref":"1_ends-and-beginnings/1-1_fresh-start.md","articles":[]},{"title":"1-2: Git Repositories","level":"1.2.2","depth":2,"path":"1_ends-and-beginnings/1-2_git-repositories.md","ref":"1_ends-and-beginnings/1-2_git-repositories.md","articles":[]},{"title":"1-3: The Git Core Loop","level":"1.2.3","depth":2,"path":"1_ends-and-beginnings/1-3_git-core-loop.md","ref":"1_ends-and-beginnings/1-3_git-core-loop.md","articles":[]},{"title":"1-4: Commit Best Practices","level":"1.2.4","depth":2,"path":"1_ends-and-beginnings/1-4_commit-best-practices.md","ref":"1_ends-and-beginnings/1-4_commit-best-practices.md","articles":[]},{"title":"1-5: Fixing Mistakes","level":"1.2.5","depth":2,"path":"1_ends-and-beginnings/1-5_fixing-mistakes.md","ref":"1_ends-and-beginnings/1-5_fixing-mistakes.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["highlight"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pubdate":"2023-04-03:00:00:00","author":"Michael Taggart","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Creating With Git","gitbook":"*","publisher":"The Taggart Institute","description":"An introductory course on Git for all types of projects from The Taggart Institute"},"file":{"path":"1_ends-and-beginnings/1-1_fresh-start.md","mtime":"2023-04-30T03:38:36.865Z","type":"markdown"},"gitbook":{"version":"4.0.7","time":"2023-04-30T03:47:12.104Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
