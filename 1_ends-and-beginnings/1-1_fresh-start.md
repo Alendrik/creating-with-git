@@ -4,7 +4,7 @@ I'm standing here fresh off the `Creating with Git` course from TTI. I had a lot
 
 ## Coming up with ideas - Sir, what do you mean by yes?
 
-As I tried to come up with separate ideas worthy of a project, I realized that I can combine lots ofwhat I want to do into one project. I want to publish some documentations to show companies a little more about me. I've also been meaning to figure out a workflow to publish my desired obsidian notes. Lastly, I want to make sure my next project can include git in some fashion. Rather than treating these things 
+As I tried to come up with separate ideas worthy of a project, I realized that I can combine lots ofwhat I want to do into one project. I want to publish some documentations to show companies a little more about me. I've also been meaning to figure out a workflow to publish some of my obsidian notes. Lastly, I want to make sure my next project can include git in some fashion. Rather than treating these things as separate ideasn, I'm turning them into one project.
 
 
 ## Turning Ideas -> Project

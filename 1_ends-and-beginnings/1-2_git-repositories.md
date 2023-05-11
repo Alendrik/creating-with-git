@@ -1,12 +1,6 @@
-# 1-2: Git Repositories
+# 1-2: Some Light Research
 
-We've used the term "repo" or "repository" a number of times already. But what _is_ a Git repo?
 
-Simply, it's a folder with a hidden `.git` folder inside of it that manages versions and changes of the contents.
-
-More nerdily, it's a folder turned into a TARDIS: it contains more than it looks like, and it can travel in time and between possible realities.
-
-![tardis](/img/tardis.jpg)
 
 ## Creating Git Repos
 
